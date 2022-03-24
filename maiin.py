@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 
 @app.route('/carousel')
-def form_sample():
+def carousel():
     return f'''<!doctype html>
                     <html lang="en">
                         <head>
